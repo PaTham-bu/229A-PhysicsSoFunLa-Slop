@@ -87,7 +87,22 @@ public class PlayerBallController : MonoBehaviour
     void GameOver()
     {
         Debug.Log("Game Over!");
-        Invoke("LoadEndCredits", 1.5f);
+
+        // ✅ Get time from your timer script
+        GameTimer timer = FindObjectOfType<GameTimer>();
+
+        if (timer != null)
+        {
+            float finalTime = timer.GetTime();
+            PlayerPrefs.SetFloat("FinalTime", finalTime);
+            PlayerPrefs.Save();
+        }
+        else
+        {
+            Debug.LogWarning("GameTimer not found!");
+        }
+
+        SceneManager.LoadScene("End Credits");
     }
 
     void LoadEndCredits()

@@ -25,8 +25,14 @@ public class GameTimer : MonoBehaviour
         timerText.text = minutes.ToString("00") + ":" + seconds.ToString("00");
     }
 
+
     public void StopTimer()
     {
         isRunning = false;
+    }
+
+    public float GetTime()
+    {
+        return timeElapsed;
     }
 }
