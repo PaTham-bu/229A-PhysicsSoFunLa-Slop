@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerBallController : MonoBehaviour
@@ -86,12 +87,13 @@ public class PlayerBallController : MonoBehaviour
     void GameOver()
     {
         Debug.Log("Game Over!");
+        Invoke("LoadEndCredits", 1.5f);
+    }
 
-        // Stop time
-        Time.timeScale = 0f;
-
-        // Optional: destroy player
-        // Destroy(gameObject);
+    void LoadEndCredits()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("End Credits");
     }
 
     void OnCollisionEnter(Collision collision)

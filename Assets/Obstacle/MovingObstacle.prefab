@@ -10,7 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4887780104554920302, guid: 4c934d9acaf19ef4ca7a7f3736c79036, type: 3}
       propertyPath: m_Name
-      value: Obstacle (9) Variant
+      value: MovingObstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513077523044232140, guid: 4c934d9acaf19ef4ca7a7f3736c79036, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8513077523044232140, guid: 4c934d9acaf19ef4ca7a7f3736c79036, type: 3}
       propertyPath: m_LocalPosition.x
@@ -79,4 +83,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MovingObstacle
   moveDirection: {x: 1, y: 0, z: 0}
   moveDistance: 3
-  speed: 2
+  speed: 10
