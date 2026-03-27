@@ -23119,6 +23119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GM-Edge
       objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: 6ee27571d14d14b32a6ab8e026c9259f, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

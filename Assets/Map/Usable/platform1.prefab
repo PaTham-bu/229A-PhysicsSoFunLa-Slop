@@ -560,7 +560,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6690175390544000234}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 62f4b58efc764564099d799017a0990d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -672,7 +672,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7627367549050744778}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 62f4b58efc764564099d799017a0990d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1056,6 +1056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GM-Corner
       objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: f11508fdb9ec94e628f639a31d56902a, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 62f4b58efc764564099d799017a0990d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

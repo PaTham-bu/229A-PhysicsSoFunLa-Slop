@@ -18253,7 +18253,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4805337145382740332}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 62f4b58efc764564099d799017a0990d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -23113,6 +23113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GM-Edge
       objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: 6ee27571d14d14b32a6ab8e026c9259f, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 62f4b58efc764564099d799017a0990d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23191,6 +23195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GM-Ramp
       objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: 39e2a36d9eb154d39b77fc97095043cf, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 40598ae6870c9264994e339ab8e5b609, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
