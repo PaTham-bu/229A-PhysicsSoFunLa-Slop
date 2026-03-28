@@ -88,7 +88,7 @@ public class PlayerBallController : MonoBehaviour
     {
         Debug.Log("Game Over!");
 
-        // ✅ Get time from your timer script
+        // Get time from your timer script
         GameTimer timer = FindObjectOfType<GameTimer>();
 
         if (timer != null)

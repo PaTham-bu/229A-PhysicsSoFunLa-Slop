@@ -23,7 +23,7 @@ public class EndCredits : MonoBehaviour
         {
             hasFinished = true;
 
-            // 👉 Delay the final time display
+            // Delay the final time display
             Invoke("ShowFinalTime", delay);
         }
     }
