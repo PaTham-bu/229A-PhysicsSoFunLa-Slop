@@ -271,7 +271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EndCredits
   scrollSpeed: 45
   endY: 2000
-  delay: 19
+  delay: 20
 --- !u!1 &221368654
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,25 +1306,30 @@ MonoBehaviour:
     DEVELOPED BY
 
 
+    [1670706868]
+    [229A]
 
-    [PANNAWIT
-    THAMTEERAPITAK]
+    [PANNAWIT THAMTEERAPITAK]
 
     Role: [e.g. Programmer / Game Designer]
 
 
 
-    [NATCHANONE
-    THONGDEE]
+    [1670707460]
+    [229A]
+
+    [NATCHANONE THONGDEE]
 
     Role: [e.g. Credit / UI Designer]
 
 
 
+    [1670707445]
+    [229A]
+
     [WASUTEP KHUNNUI]
 
-    Role:
-    [e.g. Game Designer / QA]
+    Role: [e.g. Game Designer / QA]
 
 
 
@@ -1332,14 +1337,14 @@ MonoBehaviour:
 
 
 
-    SPECIAL THANKS
+    SPECIAL
+    THANKS
 
 
 
     Family & Friends
 
-    Unity
-    Community
+    Unity Community
 
     Visual Studio Community
 
@@ -1492,7 +1497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EndCredits
   scrollSpeed: 45
   endY: 2000
-  delay: 19
+  delay: 20
 --- !u!1 &1622367595
 GameObject:
   m_ObjectHideFlags: 0
@@ -1852,7 +1857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EndCredits
   scrollSpeed: 45
   endY: 2000
-  delay: 19
+  delay: 20
 --- !u!1 &1995556292
 GameObject:
   m_ObjectHideFlags: 0
